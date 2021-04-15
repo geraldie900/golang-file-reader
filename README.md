@@ -20,3 +20,8 @@ Gofiber version : 2.7.1
 
 Make file with name :
 > config.env
+
+And then put this in your config.env :
+
+> FOLDER_PATH=[spesific directory file]
+> PORT=[the port you want]
