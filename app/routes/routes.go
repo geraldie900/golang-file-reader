@@ -33,4 +33,8 @@ func setupRoutes(app *fiber.App) {
 	app.Get("/file-reader", func(c *fiber.Ctx) error {
 		return c.JSON(Functions.FileReader(c.Query("filename")))
 	})
+
+	app.Get("/file-receiver", func(c *fiber.Ctx) error {
+		return c.JSON(Functions.FileReceiver(c))
+	})
 }
