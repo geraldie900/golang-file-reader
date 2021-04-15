@@ -1,6 +1,6 @@
 # golang-file-reader
 
-To convert any _**multiline text file based**_ to a _**single line text file**_. Initiated this project because my work project needs to convert a multiline python code file to a single line python code.
+To convert any _**multiline text file based**_ to a _**single line text**_. Initiated this project because my work project needs to convert a multiline python code file to a single line python code.
 
 ## Golang
 
