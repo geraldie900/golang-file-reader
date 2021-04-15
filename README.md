@@ -30,5 +30,6 @@ PORT=[the port you want]
 
 ### Routes Explanation
 
-* GET /file-reader : to read file from your local directory. Query param given : ?filename=[your file name with file extension] 
-* GET /file-receiver : upload your file from your local diretory, and magic will happen :wink: . Using form-data body type with key: `file` and value: your file
+* GET /file-reader : to read file content (text only) from your local directory. Query param given : ?filename=[your file name with file extension] 
+* GET /file-receiver : upload your file from your local diretory, and magic will happen :wink:. Using form-data body type with key: `file` and value: your file
+* All routes return JSON response
