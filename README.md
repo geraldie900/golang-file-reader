@@ -23,5 +23,7 @@ Make file with name :
 
 And then put this in your config.env :
 
-> FOLDER_PATH=[spesific directory file]
-> PORT=[the port you want]
+```
+FOLDER_PATH=[spesific directory file]
+PORT=[the port you want]
+```
