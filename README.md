@@ -16,7 +16,7 @@ Framework Go fiber version used : 2.7.1
 - Framework Go [fiber](https://github.com/gofiber/fiber)
 - [viper (v1.7.1)](https://github.com/spf13/viper)
 
-### Environment Variables Setting
+## Environment Variables Setting
 
 Make file with name :
 > config.env
@@ -28,7 +28,7 @@ FOLDER_PATH="[spesific directory file, in string]"
 PORT=[the port you want]
 ```
 
-### Routes Explanation
+## Routes Explanation
 
 * GET /file-reader : to read file content (text only) from your local directory. 
   - Query param given : ?filename=[your file name with file extension] 
