@@ -4,16 +4,16 @@ To convert any multiline text file based to a single line text file. Initiated t
 
 ## Golang
 
-Golang version : 1.16.3
+Golang version used : 1.16.3
 
 ## Go Fiber
 
-Gofiber version : 2.7.1
+Framework Go fiber version used : 2.7.1
 
 ## Dependencies
 
 - Golang's default dependencies
-- Gofiber
+- Framework Go [fiber](https://github.com/gofiber/fiber)
 - [viper (v1.7.1)](https://github.com/spf13/viper)
 
 ### Environment Variables Setting
