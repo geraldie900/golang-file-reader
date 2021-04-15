@@ -14,7 +14,7 @@ Gofiber version : 2.7.1
 
 - Golang's default dependencies
 - Gofiber
-- viper (v1.7.1) (https://github.com/spf13/viper)
+- [viper (v1.7.1)](https://github.com/spf13/viper)
 
 ### Environment Variables Setting
 
@@ -30,6 +30,14 @@ PORT=[the port you want]
 
 ### Routes Explanation
 
-* GET /file-reader : to read file content (text only) from your local directory. Query param given : ?filename=[your file name with file extension] 
-* GET /file-receiver : upload your file from your local diretory, and magic will happen :wink:. Using form-data body type with key: `file` and value: your file
+* GET /file-reader : to read file content (text only) from your local directory. 
+  - Query param given : ?filename=[your file name with file extension] 
+* GET /file-receiver : upload your file from your local diretory, and magic will happen :wink:. 
+  - Using form-data body type with key: `file` and value: `[your file]`
 * All routes return JSON response
+  - Example response : 
+  ```
+  {
+    "content": "your text file content\nbut with '\n' as a new line"  
+  }
+  ```
