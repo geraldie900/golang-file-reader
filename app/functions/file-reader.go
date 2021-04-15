@@ -22,7 +22,7 @@ func FileReader(filename string) interface{} {
 	content, err := ioutil.ReadFile(path + filename)
 
 	if err != nil {
-		log.Fatal(err)
+		log.Println("::[ERROR] - ", err)
 	}
 
 	re := regexp.MustCompile(`\r`)
