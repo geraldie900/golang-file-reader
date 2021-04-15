@@ -14,4 +14,4 @@ Gofiber version : 2.7.1
 
 - Golang's default dependencies
 - Gofiber
-- viper (v1.7.1) github.com/spf13/viper
+- viper (v1.7.1) (github.com/spf13/viper)
