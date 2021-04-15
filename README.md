@@ -16,7 +16,7 @@ Gofiber version : 2.7.1
 - Gofiber
 - viper (v1.7.1) (https://github.com/spf13/viper)
 
-### Env Settings
+### Environment Variables Setting
 
 Make file with name :
 > config.env
@@ -24,6 +24,11 @@ Make file with name :
 And then put this in your config.env :
 
 ```
-FOLDER_PATH=[spesific directory file]
+FOLDER_PATH="[spesific directory file, in string]"
 PORT=[the port you want]
 ```
+
+### Routes Explanation
+
+* /file-reader : to read file from your local directory. Query param given : ?filename=[your file name with file extension] 
+* /file-receiver : upload your file from local diretory, and magic will happen :wink: . Using form-data type request with key : `file`
