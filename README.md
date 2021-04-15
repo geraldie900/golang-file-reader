@@ -14,4 +14,9 @@ Gofiber version : 2.7.1
 
 - Golang's default dependencies
 - Gofiber
-- [viper (v1.7.1)] (https://github.com/spf13/viper)
+- viper (v1.7.1) (https://github.com/spf13/viper)
+
+### Env Settings
+
+Make file with name :
+> config.env
