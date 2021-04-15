@@ -1,3 +1,11 @@
+/*
+=====================================
+;	Author : Geraldie Tanu Saputra
+;	Email  : geraldie.saputra@soluix.ai
+;	Date   : 15-04-2021
+=====================================
+*/
+
 package main
 
 import (

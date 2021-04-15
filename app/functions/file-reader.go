@@ -1,23 +1,35 @@
+/*
+=====================================
+;	Author : Geraldie Tanu Saputra
+;	Email  : geraldie.saputra@soluix.ai
+;	Date   : 15-04-2021
+=====================================
+*/
+
 package functions
 
 import (
 	"io/ioutil"
 	"log"
 	"regexp"
+
+	Utils "golang-file-reader/utils"
 )
 
 func FileReader(filename string) interface{} {
-	content, err := ioutil.ReadFile(filename)
+	path := Utils.FOLDER_PATH
+
+	content, err := ioutil.ReadFile(path + filename)
 
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	re := regexp.MustCompile(`\r`)
-	content2 := re.ReplaceAllString(string(content), "")
+	contentConverted := re.ReplaceAllString(string(content), "")
 
 	data := map[string]interface{}{
-		"data": string(content2),
+		"content": string(contentConverted),
 	}
 
 	return data
